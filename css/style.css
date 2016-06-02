@@ -666,7 +666,7 @@ a.button i {
 }
 .hero .container {
     display: table;
-    height: 100%;
+    height: calc(100% - 58px);
 }
 .hero-inner {
     text-align: center;
@@ -679,7 +679,7 @@ a.button i {
 .hero h1 {
     margin: 10px 0;
     color: #fff;
-    font-size: 94px;
+    font-size: 85px;
 }
 .hero #countdown:before {
     position: absolute;
