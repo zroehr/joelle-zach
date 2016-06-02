@@ -1224,11 +1224,29 @@ a.button i {
     margin-left: -56px;
     z-index: 9;
 }
-#couple .girl {
-    background-image: url(../images/her.jpg);
+
+.girl {
+    border-radius: 50%;
+    background-image: url(../images/baby_her_face.jpg);
+    width: 150px;
+    height: 164px;
+    background-size: auto 100%;
+    margin-bottom: 20px;
+    float: right;
 }
-#couple .boy {
-    background-image: url(../images/him.jpg);
+
+.clear {
+    display: table;
+    width: 100%;
+}
+
+.boy {
+    border-radius: 50%;
+    background-image: url(../images/baby_him_face.jpg);
+    width: 150px;
+    height: 164px;
+    background-size: auto 100%;
+    margin-bottom: 20px;
 }
 #couple .images .column > span {
     position: absolute;
@@ -2760,6 +2778,15 @@ ul.double-angle li:before {
         display: none;
     }
     /* Story */
+
+    .girl {
+        margin: 0 auto 20px;
+        float: none;
+    }
+
+    .boy {
+        margin: 0 auto 20px;
+    }
 
     #story .column {
         margin-bottom: 60px;
