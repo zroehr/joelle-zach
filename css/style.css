@@ -643,7 +643,7 @@ a.button i {
     vertical-align: bottom;
 }
 .hero {
-    background-image: url(../images/hero-us.jpg);
+    background-image: url(../images/big-map.svg);
     position: relative;
     overflow: hidden;
     width: 100%;
@@ -1202,7 +1202,9 @@ a.button i {
     padding: 0;
     overflow: hidden;
 }
-#couple .images > div {
+#couple .images {
+    background-image: url(../images/hero-us.jpg);
+    background-position: 0 50%;
     position: relative;
     overflow: hidden;
     background-position: center center;
@@ -1211,7 +1213,7 @@ a.button i {
     -o-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 380px;
+    height: 580px;
     margin-bottom: 0;
 }
 #couple .hero-heart {
@@ -1219,13 +1221,13 @@ a.button i {
     background-image: url(../images/elements/hero-heart.png);
     width: 113px;
     height: 109px;
-    top: 150px;
+    top: 210px;
     left: 50%;
     margin-left: -56px;
     z-index: 9;
 }
 
-.girl {
+#story .girl {
     border-radius: 50%;
     background-image: url(../images/baby_her_face.jpg);
     width: 150px;
@@ -1235,12 +1237,12 @@ a.button i {
     float: right;
 }
 
-.clear {
+#story .clear {
     display: table;
     width: 100%;
 }
 
-.boy {
+#story .boy {
     border-radius: 50%;
     background-image: url(../images/baby_him_face.jpg);
     width: 150px;
@@ -1250,7 +1252,7 @@ a.button i {
 }
 #couple .images .column > span {
     position: absolute;
-    top: 160px;
+    top: 240px;
     right: 65px;
     z-index: 9;
 }
@@ -1270,7 +1272,7 @@ a.button i {
     right: 80px;
 }
 #couple .images .column > span.lname {
-    top: 220px;
+    top: 300px;
 }
 #couple .images .column.boy > span {
     left: 70px;
@@ -2779,12 +2781,12 @@ ul.double-angle li:before {
     }
     /* Story */
 
-    .girl {
+    #story .girl {
         margin: 0 auto 20px;
         float: none;
     }
 
-    .boy {
+    #story .boy {
         margin: 0 auto 20px;
     }
 
