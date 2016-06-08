@@ -1291,7 +1291,7 @@ a.button i {
 #story .quote {
     font: 26px/46px 'Playfair Display', serif;
     margin: 40px auto;
-    padding: 60px 160px;
+    padding: 60px;
 }
 .social ul li {
     display: inline-block;
@@ -2782,7 +2782,25 @@ ul.double-angle li:before {
     }
     #couple .hero-heart {
         top: 335px;
+        display: none;
     }
+    #couple .images .column .fname {
+        font-size: 50px;
+    }
+
+    #couple .images .column .fname {
+        font-size: 50px;
+    }
+
+    #couple .images .column > span {
+        right: 30px;
+        display: none;
+    }
+
+    #couple .images .column.boy > span {
+        left: 30px;
+    }
+
     .hero #countdown {
         display: none;
     }
