@@ -666,10 +666,14 @@ if (!Array.prototype.indexOf) {
             // $this.find('.loading').show();
 
             $.ajax({
-                'url': $this.attr('action'),
-                'type': $this.attr('method'),
-                'dataType': 'json',
-                'data': $(this).serialize()
+                // 'url': $this.attr('action'),
+                // 'type': $this.attr('method'),
+                // 'dataType': 'json',
+                // 'data': $(this).serialize()
+                url: "https://formspree.io/zach.roehr@email.com",
+                method: "POST",
+                data: {message: "hello!"},
+                dataType: "json"
             }).done(function(response) {
                 $this.find('.loading').hide();
                 if (typeof response.type != 'undefined' && typeof response.message != 'undefined') {
