@@ -13,7 +13,7 @@ Version: 1.0
   6. Invitation RSVP
   7. Top Couple Images
   8. Story Section
-  9. Loveline and Box Class
+  9. Travel and Box Class
   10. Parallax Image-just change background URL
   11. Wedding Events
   12. Important People
@@ -1305,19 +1305,27 @@ a.button i {
     color: #FF8C89;
 }
 /* ===========================================================
-    9.  Loveline and Box Class
+    9.  Travel and Box Class
 ============================================================ */
 
-#loveline h3.section-title:before {
+#travel h3.section-title:before {
     content: "\e000";
     top: -60px;
     font-size: 78px;
     margin-left: -40px;
 }
-#loveline .timeline {
+#travel .timeline {
     padding-bottom: 40px;
 }
+
+#travel .first {
+    margin-top: 80px;
+}
 /* Boxed class */
+
+#travel .box h2 {
+    text-align: center;
+}
 
 .box {
     position: relative;
@@ -2816,6 +2824,11 @@ ul.double-angle li:before {
     #wedding-events .timeline {
         padding-top: 40px;
     }
+
+    #travel .box h2 {
+        text-align: left;
+    }
+
     .box {
         padding: 25px;
     }
