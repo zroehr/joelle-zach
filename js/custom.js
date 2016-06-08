@@ -654,10 +654,6 @@ if (!Array.prototype.indexOf) {
             'subject': function(data) {
                 this.setClass(this.$el.parent());
                 return this.notEmpty(data);
-            },
-            'autovalue': function(data) {
-                this.setClass(this.$el.parent());
-                return this.notEmpty(data);
             }
         }).submit(function(e) {
             e.preventDefault();
