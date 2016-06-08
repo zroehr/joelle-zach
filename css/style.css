@@ -1989,6 +1989,22 @@ select {
     transition: all 0.2s;
     opacity: 0;
 }
+
+#contact {
+    height: 576px;
+}
+
+#contact .thank-you {
+    display: none;
+}
+
+#contact .thank-you h3 {
+    margin-top: 30px;
+    text-transform: none;
+    color: #fff;
+    text-align: center;
+}
+
 /* ===========================================================
     19.  Map Section
 ============================================================ */
@@ -3000,5 +3016,9 @@ ul.double-angle li:before {
     }
     .baby .hero-inner .date {
         font: 21px/28px 'Playfair Display', serif;
+    }
+
+    #contact {
+        height: 683px;
     }
 }

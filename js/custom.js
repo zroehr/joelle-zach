@@ -658,6 +658,19 @@ if (!Array.prototype.indexOf) {
         }).submit(function(e) {
             e.preventDefault();
             var $this = $(this);
+            $this.fadeOut();
+
+            setTimeout(function() {
+                $(".thank-you").fadeIn();
+            }, 500);
+
+            setTimeout(function() {
+                $('#name, #email, #persons').val('');
+                $(".thank-you").fadeOut();
+                setTimeout(function() {
+                    $this.fadeIn();
+                }, 500);
+            }, 5000);
 
             $this.find('.notification')
                 .attr('class', 'notification');
@@ -666,14 +679,10 @@ if (!Array.prototype.indexOf) {
             // $this.find('.loading').show();
 
             $.ajax({
-                // 'url': $this.attr('action'),
-                // 'type': $this.attr('method'),
-                // 'dataType': 'json',
-                // 'data': $(this).serialize()
-                url: "https://formspree.io/zach.roehr@email.com",
-                method: "POST",
-                data: {message: "hello!"},
-                dataType: "json"
+                'url': $this.attr('action'),
+                'type': $this.attr('method'),
+                'dataType': 'json',
+                'data': $(this).serialize()
             }).done(function(response) {
                 $this.find('.loading').hide();
                 if (typeof response.type != 'undefined' && typeof response.message != 'undefined') {
