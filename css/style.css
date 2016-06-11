@@ -1205,6 +1205,7 @@ a.button i {
 #couple .images {
     background-image: url(../images/hero-us.jpg);
     background-position: 50% 0%;
+    background-attachment: fixed;
     position: relative;
     overflow: hidden;
     -webkit-background-size: cover;
