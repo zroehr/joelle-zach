@@ -96,7 +96,7 @@ p img {
     margin: 0;
 }
 a {
-    color: #ff8c89;
+    color: #FF8C89!important;
     text-decoration: none;
     -webkit-transform: translateZ(0);
     -webkit-transition: 0.3s all linear;
@@ -107,6 +107,7 @@ a {
 a:hover, a:active {
     color: #FF8C89;
     outline: 0;
+    text-decoration: underline;
 }
 em, i {
     font-style: italic;
