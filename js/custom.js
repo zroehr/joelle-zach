@@ -154,12 +154,12 @@ if (!Array.prototype.indexOf) {
             $('.hero,#background-image,.parallax').addClass('not-mobile');
 
             $('section[data-type="parallax"]').each(function() {
-                $(this).parallax("50%", 0.5);
+                //$(this).parallax("50%", 0.5);
             });
 
             /* fixed background on mobile devices */
             $('section[data-type="parallax"]').each(function(index, element) {
-                $(this).addClass('fixed');
+                //$(this).addClass('fixed');
             });
         }
 
