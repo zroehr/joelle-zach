@@ -96,7 +96,7 @@ p img {
     margin: 0;
 }
 a {
-    color: #FF8C89!important;
+    color: #ff8c89;
     text-decoration: none;
     -webkit-transform: translateZ(0);
     -webkit-transition: 0.3s all linear;
@@ -107,7 +107,6 @@ a {
 a:hover, a:active {
     color: #FF8C89;
     outline: 0;
-    text-decoration: underline;
 }
 em, i {
     font-style: italic;
@@ -1308,7 +1307,13 @@ a.button i {
 /* ===========================================================
     9.  Travel and Box Class
 ============================================================ */
-
+#travel a {
+    color: #FF8C89;
+}
+#travel a:hover,
+#travel a:active {
+    text-decoration: underline;
+}
 #travel h3.section-title:before {
     content: "\e000";
     top: -60px;
