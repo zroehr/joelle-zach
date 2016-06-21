@@ -1309,10 +1309,17 @@ a.button i {
 ============================================================ */
 #travel a {
     color: #FF8C89;
+    /*font-weight: bold;*/
 }
+
 #travel a:hover,
 #travel a:active {
     text-decoration: underline;
+}
+
+#travel a.large {
+    font-size: 18px;
+    font-weight: bold;
 }
 #travel h3.section-title:before {
     content: "\e000";
@@ -1331,6 +1338,27 @@ a.button i {
 
 #travel .box h2 {
     text-align: center;
+}
+
+#booking .box-content img {
+    width: 50%;
+    float: right;
+    margin: 10px 0 20px 20px;
+}
+
+#resort .box-content ul li {
+    float: left;
+    margin: 20px 10px;
+    width: 30%;
+}
+
+#resort .box-content ul li img {
+    height: 120px;
+    margin: 0;
+}
+
+#resort .box-content ul li span {
+    display: block;
 }
 
 .box {
@@ -2875,6 +2903,12 @@ ul.double-angle li:before {
 
     #travel .box h2 {
         text-align: left;
+    }
+
+    #booking .box-content img {
+        width: 100%;
+        float: none;
+        margin: 0 0 20px 0;
     }
 
     .box {
