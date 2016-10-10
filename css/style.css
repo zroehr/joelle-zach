@@ -2836,6 +2836,7 @@ ul.double-angle li:before {
     .section-tagline {
         max-width: 88%;
     }
+
     .hero h1 {
         font-size: 46px;
         line-height: 52px;
@@ -3094,4 +3095,9 @@ ul.double-angle li:before {
     #contact {
         height: 683px;
     }
+}
+
+.hero.registry {
+  height: 70px!important;
+  background: transparent;
 }
