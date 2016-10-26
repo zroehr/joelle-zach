@@ -1792,7 +1792,10 @@ a.button i {
 /* ===========================================================
     15.  Gift Registry
 ============================================================ */
-
+#gift-registry {
+  margin-top: -170px;
+  position: relative;
+}
 #gift-registry h3.section-title:before {
     content: "\e009";
 }
@@ -1809,6 +1812,9 @@ a.button i {
     margin: 10px;
     padding: 7px;
     background: #fff;
+}
+.small-box li:last-child {
+  top: -23px;
 }
 .small-box li a.product {
     display: inline-block;
@@ -2821,7 +2827,11 @@ ul.double-angle li:before {
 }
 /* #This is for Mobiles
 ================================================== */
-
+@media (max-width: 610px) {
+  .small-box li:last-child {
+    top: 0;
+  }
+}
 @media (max-width: 668px) {
     h1 {
         font-size: 28px;
