@@ -1547,7 +1547,9 @@ a.button i {
 /* ===========================================================
     11.  Wedding Events
 ============================================================ */
-
+#wedding-events .timeline h2 span {
+  display: block;
+}
 #wedding-events h3.section-title:before {
     content: "\e009";
     margin-left: -21px;
