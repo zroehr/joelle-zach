@@ -1349,6 +1349,11 @@ a.button i {
     text-align: center;
 }
 
+#booking .box-content ul {
+  list-style: disc;
+  margin-left: 20px;
+}
+
 #booking .box-content img {
     width: 50%;
     float: right;
